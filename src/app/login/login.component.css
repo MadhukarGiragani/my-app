@@ -1,22 +1,41 @@
 .parent{
     width: 100vw;
     height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 400px;
+    height: 400px;
     background-color: brown;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-.left{
-    width: 20%;
-    height: 100%;
-    background-color: black;
-}
-.right{
-    width: 80%;
-    height: 100%;
-    background-color: teal;
-}
-.left h4{
-    padding: 20px;
-    margin: 0;
-    margin-bottom: 5px;
+.parent h3{
     text-align: center;
+    color: white;
+    font-weight: 500;
 }
-  
+label{
+    color: white;
+    padding: 0;
+    margin-bottom: 10px;
+}
+form{
+    text-align: center;
+    
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+input{
+    border-radius: 5px;
+}
