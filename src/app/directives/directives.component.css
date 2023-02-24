@@ -1,0 +1,8 @@
+.product{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+}
