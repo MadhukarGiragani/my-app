@@ -10,9 +10,9 @@ export class DirectivesComponent {
   public names:string[] = ["madhu","vamshi","ram","gali"];
   public places:string[] = ["hyderabad","chennai","kolkata"];
   public users: any = [
-    {name:'madhu',phone:7287975182},
-    {name:'vamshi',phone:9010721946},
-    {name:'prakash',phone:9550454373}
+    {name:'madhu',phone:7287975182, marks:23, age:15},
+    {name:'vamshi',phone:9010721946, marks:55, age:19},
+    {name:'prakash',phone:9550454373, marks:80, age:21}
   ]
 
   public products:any =[

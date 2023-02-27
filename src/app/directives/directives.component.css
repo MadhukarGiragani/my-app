@@ -6,3 +6,11 @@
     background-color: aquamarine;
     text-align: center;
 }
+.minor{
+    color: red;
+    background-color: aqua;
+}
+.major{
+    color: green;
+    background-color: yellow;
+}
