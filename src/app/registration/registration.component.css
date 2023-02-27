@@ -1,0 +1,21 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: peru;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+}
+button{
+    margin-top: 50px;
+}
+.register input{
+    border-radius: 2px;
+}
