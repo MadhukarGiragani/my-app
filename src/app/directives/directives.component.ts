@@ -21,4 +21,9 @@ export class DirectivesComponent {
     {name:'mobile',price:'20000',rating:5},
     {name:'tv',price:'25000',rating:3}
   ]
+
+
+  public today:any = new Date();
+
+
 }
