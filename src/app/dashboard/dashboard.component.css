@@ -12,6 +12,7 @@
     color: white;
     font-weight: 500;
     margin-bottom: 10px;
+    overflow: auto;
 }
 .right{
     width: 80%;
