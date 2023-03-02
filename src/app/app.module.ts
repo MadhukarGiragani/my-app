@@ -21,6 +21,7 @@ import { PhonesComponent } from './phones/phones.component';
 import { UsersComponent } from './users/users.component';
 import { HttpClientModule } from '@angular/common/http';
 import { VehiclesComponent } from './vehicles/vehicles.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { VehiclesComponent } from './vehicles/vehicles.component';
     CarsComponent,
     PhonesComponent,
     UsersComponent,
-    VehiclesComponent
+    VehiclesComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

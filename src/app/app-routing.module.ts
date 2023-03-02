@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { PhonesComponent } from './phones/phones.component';
+import { ProductsComponent } from './products/products.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { UsersComponent } from './users/users.component';
@@ -32,7 +33,8 @@ const routes: Routes = [
   {path:'cars', component:CarsComponent},
   {path:'phones', component:PhonesComponent},
   {path:'users', component:UsersComponent},
-  {path:'vehicles', component:VehiclesComponent}
+  {path:'vehicles', component:VehiclesComponent},
+  {path:'products', component:ProductsComponent}
   ]},
   {path:'',component:LoginComponent},
   {path:'**',component:PagenotfoundComponent}
