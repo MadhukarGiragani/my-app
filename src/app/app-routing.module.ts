@@ -14,6 +14,7 @@ import { PhonesComponent } from './phones/phones.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { UsersComponent } from './users/users.component';
+import { VehiclesComponent } from './vehicles/vehicles.component';
 import { WishComponent } from './wish/wish.component';
 
 const routes: Routes = [
@@ -30,7 +31,8 @@ const routes: Routes = [
   {path:'Grade', component:GradeComponent},
   {path:'cars', component:CarsComponent},
   {path:'phones', component:PhonesComponent},
-  {path:'users', component:UsersComponent}
+  {path:'users', component:UsersComponent},
+  {path:'vehicles', component:VehiclesComponent}
   ]},
   {path:'',component:LoginComponent},
   {path:'**',component:PagenotfoundComponent}
