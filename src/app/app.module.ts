@@ -22,6 +22,7 @@ import { UsersComponent } from './users/users.component';
 import { HttpClientModule } from '@angular/common/http';
 import { VehiclesComponent } from './vehicles/vehicles.component';
 import { ProductsComponent } from './products/products.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ProductsComponent } from './products/products.component';
     PhonesComponent,
     UsersComponent,
     VehiclesComponent,
-    ProductsComponent
+    ProductsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

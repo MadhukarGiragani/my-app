@@ -6,6 +6,7 @@ import { CartComponent } from './cart/cart.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import { GradeComponent } from './grade/grade.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
@@ -34,7 +35,8 @@ const routes: Routes = [
   {path:'phones', component:PhonesComponent},
   {path:'users', component:UsersComponent},
   {path:'vehicles', component:VehiclesComponent},
-  {path:'products', component:ProductsComponent}
+  {path:'products', component:ProductsComponent},
+  {path:'Gallery', component:GalleryComponent}
   ]},
   {path:'',component:LoginComponent},
   {path:'**',component:PagenotfoundComponent}
