@@ -1,14 +1,14 @@
 <div class="parent">
     <div class="form">
-    <form action="">
+    <form [formGroup] ="loginForm">
         <h3>Login</h3>
         <label for="">Mail:</label>
-        <input type="text" placeholder="Username">
+        <input type="text" placeholder="Username" formControlName="email">
         <br>
         <label for="">password:</label>
-        <input type="text" placeholder="password">
+        <input type="text" placeholder="password" formControlName="password">
         <br> 
-        <button routerLink="/dashboard" class="btn btn-success">Login</button>
+        <button  class="btn btn-success" (click)="login()">Login</button>
         <br>
         <h6>forgot password?</h6>        
     </form>

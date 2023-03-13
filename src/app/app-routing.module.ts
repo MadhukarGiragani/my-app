@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AccountsComponent } from './accounts/accounts.component';
+import { AuthenticationGuard } from './authentication.guard';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { CarsComponent } from './cars/cars.component';
 import { CartComponent } from './cart/cart.component';
+import { CreateStudentComponent } from './create-student/create-student.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { DirectivesComponent } from './directives/directives.component';
@@ -21,7 +24,7 @@ import { WishComponent } from './wish/wish.component';
 
 const routes: Routes = [
   {path:'login', component:LoginComponent},
-  {path:'dashboard', component:DashboardComponent,children:[
+  {path:'dashboard', canActivate:[AuthenticationGuard], component:DashboardComponent,children:[
   {path:'home', component:HomeComponent},
   {path:'data-binding', component:DataBindingComponent},
   {path:'calculator', component:CalculatorComponent},
@@ -36,7 +39,9 @@ const routes: Routes = [
   {path:'users', component:UsersComponent},
   {path:'vehicles', component:VehiclesComponent},
   {path:'products', component:ProductsComponent},
-  {path:'Gallery', component:GalleryComponent}
+  {path:'Gallery', component:GalleryComponent},
+  {path:'accounts', component:AccountsComponent},
+  {path:'create-student', component:CreateStudentComponent}
   ]},
   {path:'',component:LoginComponent},
   {path:'**',component:PagenotfoundComponent}
