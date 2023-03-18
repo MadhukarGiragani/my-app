@@ -24,7 +24,7 @@
     <input type="number" formControlName="age">
     <div class="text-danger" *ngIf="createStudent.get('age')?.invalid && createStudent.get('age')?.touched">
         <p *ngIf="createStudent.get('age')?.errors?.['required']">" age is required"</p>
-        <p *ngIf="createStudent.get('age')?.errors?.['min']">" min 1 characters"</p>
+        <p *ngIf="createStudent.get('age')?.errors?.['min']">" min 1  characters"</p>
         <p *ngIf="createStudent.get('age')?.errors?.['max']">"max 100 characters only" </p>
     </div>
 

@@ -25,6 +25,11 @@ import { ProductsComponent } from './products/products.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { CreateStudentComponent } from './create-student/create-student.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
+import { ProductComponent } from './product/product.component';
+import { NavComponent } from './nav/nav.component';
+import { CartlistComponent } from './cartlist/cartlist.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +53,12 @@ import { CreateStudentComponent } from './create-student/create-student.componen
     ProductsComponent,
     GalleryComponent,
     AccountsComponent,
-    CreateStudentComponent
+    CreateStudentComponent,
+    ParentComponent,
+    ChildComponent,
+    ProductComponent,
+    NavComponent,
+    CartlistComponent
   ],
   imports: [
     BrowserModule,

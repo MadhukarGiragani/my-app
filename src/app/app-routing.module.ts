@@ -5,6 +5,7 @@ import { AuthenticationGuard } from './authentication.guard';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { CarsComponent } from './cars/cars.component';
 import { CartComponent } from './cart/cart.component';
+import { CartlistComponent } from './cartlist/cartlist.component';
 import { CreateStudentComponent } from './create-student/create-student.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
@@ -13,8 +14,11 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { GradeComponent } from './grade/grade.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { NavComponent } from './nav/nav.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ParentComponent } from './parent/parent.component';
 import { PhonesComponent } from './phones/phones.component';
+import { ProductComponent } from './product/product.component';
 import { ProductsComponent } from './products/products.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { RegistrationComponent } from './registration/registration.component';
@@ -41,7 +45,11 @@ const routes: Routes = [
   {path:'products', component:ProductsComponent},
   {path:'Gallery', component:GalleryComponent},
   {path:'accounts', component:AccountsComponent},
-  {path:'create-student', component:CreateStudentComponent}
+  {path:'create-student', component:CreateStudentComponent},
+  {path:'parent', component:ParentComponent},
+  {path:'product',component:ProductComponent},
+  {path:'nav',component:NavComponent},
+  {path:'cartlist',component:CartlistComponent}
   ]},
   {path:'',component:LoginComponent},
   {path:'**',component:PagenotfoundComponent}
